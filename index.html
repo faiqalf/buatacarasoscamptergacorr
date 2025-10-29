@@ -127,7 +127,7 @@
     transform: translateX(-50%);
     width: 70px;
     height: 70px;
-    border-radius: 50%;
+    border-radius: 20%;
     background: rgba(255, 255, 255, 0.85);
     color: black;
     border: none;
@@ -218,6 +218,28 @@
     margin-right: 20px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.4);
   }
+
+  .carousel-track img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+
+  .carousel-container:hover .carousel-track {
+    animation-play-state: paused;
+  }
+
+  .fotosahabat img {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 16/9;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1cm;
+}
 
   /* Keyframes hanya 1 arah */
   @keyframes scroll {
@@ -353,9 +375,9 @@
   <div class="content">
     <h1>BUATT JODHI DAN HAMIDDD</h1>
     <div class="apresiasi-layout">
-      <div class="card"><img src="jodhi1.jpg"><h3>Jodhi</h3><p>Koordinator Umum</p></div>
+      <div class="card"><img src="jodhi.jpg"><h3>Jodhi</h3><p>Koordinator Umum</p></div>
       <p class="pesan">Buat Jodhi dan Hamid, makasih banget ya pak. Uda nerima kami, keseluruhan dari anak acara. Maaf banget nih, kalo selama soscamp, banyak konsep acara yang miss dari harapan kalian. Banyak konsep yang mungkin masih belum maksimal dalam pembuatannya. Maaf juga, kalo misalnya anak acara masih banyak yang perlu diperbaiki, baik adabnya maupun pemikirannya. Tapi serius, makasih banget pak. Walaupun tau anak acara banyak kuarangnya, tapi dari kalian tetep mau support kami, mau mengarahkan kami. Makasih banget, respect.💛</p>
-      <div class="card"><img src="hamid1.jpg"><h3>Hamid</h3><p>Koordinator Umum</p></div>
+      <div class="card"><img src="hamid.jpg"><h3>Hamid</h3><p>Koordinator Umum</p></div>
     </div>
   </div>
 </section>
@@ -368,10 +390,10 @@
       <div class="carousel-track scroll-left">
         <div class="carousel-group">
           <!-- semua foto1.jpg - foto30.jpg -->
-          <img src="foto1.jpg"><img src="foto2.jpg"><img src="foto3.jpg"><img src="foto4.jpg"><img src="foto5.jpg"><img src="foto6.jpg"><img src="foto7.jpg"><img src="foto8.jpg"><img src="foto9.jpg"><img src="foto10.jpg"><img src="foto11.jpg"><img src="foto12.jpg"><img src="foto13.jpg"><img src="foto14.jpg"><img src="foto15.jpg"><img src="foto16.jpg"><img src="foto17.jpg"><img src="foto18.jpg"><img src="foto19.jpg"><img src="foto20.jpg"><img src="foto21.jpg"><img src="foto22.jpg"><img src="foto23.jpg"><img src="foto24.jpg"><img src="foto25.jpg"><img src="foto26.jpg"><img src="foto27.jpg"><img src="foto28.jpg"><img src="foto29.jpg"><img src="foto30.jpg">
+          <img src="foto1.jpg"><img src="foto2.jpg"><img src="foto3.jpg"><img src="foto4.jpg"><img src="foto5.jpg"><img src="foto6.jpg"><img src="foto7.jpg"><img src="foto8.jpg"><img src="foto9.jpg"><img src="foto10.jpg"><img src="foto11.jpg"><img src="foto12.jpg"><img src="foto13.jpg"><img src="foto14.jpg"><img src="foto15.jpg"><img src="foto16.jpg"><img src="foto17.jpg"><img src="foto18.jpg"><img src="foto19.jpg"><img src="foto20.jpg"><img src="foto21.JPG"><img src="foto22.jpg"><img src="foto23.jpg"><img src="foto24.jpg"><img src="foto25.jpg"><img src="foto26.jpg"><img src="foto27.jpg"><img src="foto28.jpg"><img src="foto29.jpg"><img src="foto30.jpg">
         </div>
         <div class="carousel-group">
-          <img src="foto1.jpg"><img src="foto2.jpg"><img src="foto3.jpg"><img src="foto4.jpg"><img src="foto5.jpg"><img src="foto6.jpg"><img src="foto7.jpg"><img src="foto8.jpg"><img src="foto9.jpg"><img src="foto10.jpg"><img src="foto11.jpg"><img src="foto12.jpg"><img src="foto13.jpg"><img src="foto14.jpg"><img src="foto15.jpg"><img src="foto16.jpg"><img src="foto17.jpg"><img src="foto18.jpg"><img src="foto19.jpg"><img src="foto20.jpg"><img src="foto21.jpg"><img src="foto22.jpg"><img src="foto23.jpg"><img src="foto24.jpg"><img src="foto25.jpg"><img src="foto26.jpg"><img src="foto27.jpg"><img src="foto28.jpg"><img src="foto29.jpg"><img src="foto30.jpg">
+          <img src="foto1.jpg"><img src="foto2.jpg"><img src="foto3.jpg"><img src="foto4.jpg"><img src="foto5.jpg"><img src="foto6.jpg"><img src="foto7.jpg"><img src="foto8.jpg"><img src="foto9.jpg"><img src="foto10.jpg"><img src="foto11.jpg"><img src="foto12.jpg"><img src="foto13.jpg"><img src="foto14.jpg"><img src="foto15.jpg"><img src="foto16.jpg"><img src="foto17.jpg"><img src="foto18.jpg"><img src="foto19.jpg"><img src="foto20.jpg"><img src="foto21.JPG"><img src="foto22.jpg"><img src="foto23.jpg"><img src="foto24.jpg"><img src="foto25.jpg"><img src="foto26.jpg"><img src="foto27.jpg"><img src="foto28.jpg"><img src="foto29.jpg"><img src="foto30.jpg">
         </div>
       </div>
     </div>
@@ -380,10 +402,10 @@
     <div class="carousel-container">
       <div class="carousel-track scroll-right">
         <div class="carousel-group">
-         <img src="foto26.jpg"><img src="foto24.jpg"><img src="foto23.jpg"><img src="foto22.jpg"><img src="foto21.jpg"><img src="foto20.jpg"><img src="foto19.jpg"><img src="foto12.jpg"><img src="foto11.jpg"><img src="foto10.jpg"><img src="foto27.jpg"><img src="foto17.jpg"><img src="foto9.jpg"><img src="foto8.jpg"><img src="foto7.jpg"><img src="foto6.jpg"><img src="foto5.jpg"><img src="foto4.jpg"><img src="foto3.jpg"><img src="foto2.jpg"><img src="foto1.jpg"><img src="foto25.jpg"><img src="foto28.jpg"><img src="foto16.jpg"><img src="foto18.jpg"> <img src="foto30.jpg"><img src="foto29.jpg"><img src="foto15.jpg"><img src="foto14.jpg"><img src="foto13.jpg">
+         <img src="foto26.jpg"><img src="foto24.jpg"><img src="foto23.jpg"><img src="foto22.jpg"><img src="foto21.JPG"><img src="foto20.jpg"><img src="foto19.jpg"><img src="foto12.jpg"><img src="foto11.jpg"><img src="foto10.jpg"><img src="foto27.jpg"><img src="foto17.jpg"><img src="foto9.jpg"><img src="foto8.jpg"><img src="foto7.jpg"><img src="foto6.jpg"><img src="foto5.jpg"><img src="foto4.jpg"><img src="foto3.jpg"><img src="foto2.jpg"><img src="foto1.jpg"><img src="foto25.jpg"><img src="foto28.jpg"><img src="foto16.jpg"><img src="foto18.jpg"> <img src="foto30.jpg"><img src="foto29.jpg"><img src="foto15.jpg"><img src="foto14.jpg"><img src="foto13.jpg">
         </div>
         <div class="carousel-group">
-         <img src="foto26.jpg"><img src="foto24.jpg"><img src="foto23.jpg"><img src="foto22.jpg"><img src="foto21.jpg"><img src="foto20.jpg"><img src="foto19.jpg"><img src="foto12.jpg"><img src="foto11.jpg"><img src="foto10.jpg"><img src="foto27.jpg"><img src="foto17.jpg"><img src="foto9.jpg"><img src="foto8.jpg"><img src="foto7.jpg"><img src="foto6.jpg"><img src="foto5.jpg"><img src="foto4.jpg"><img src="foto3.jpg"><img src="foto2.jpg"><img src="foto1.jpg"><img src="foto25.jpg"><img src="foto28.jpg"><img src="foto16.jpg"><img src="foto18.jpg"> <img src="foto30.jpg"><img src="foto29.jpg"><img src="foto15.jpg"><img src="foto14.jpg"><img src="foto13.jpg">
+         <img src="foto26.jpg"><img src="foto24.jpg"><img src="foto23.jpg"><img src="foto22.jpg"><img src="foto21.JPG"><img src="foto20.jpg"><img src="foto19.jpg"><img src="foto12.jpg"><img src="foto11.jpg"><img src="foto10.jpg"><img src="foto27.jpg"><img src="foto17.jpg"><img src="foto9.jpg"><img src="foto8.jpg"><img src="foto7.jpg"><img src="foto6.jpg"><img src="foto5.jpg"><img src="foto4.jpg"><img src="foto3.jpg"><img src="foto2.jpg"><img src="foto1.jpg"><img src="foto25.jpg"><img src="foto28.jpg"><img src="foto16.jpg"><img src="foto18.jpg"> <img src="foto30.jpg"><img src="foto29.jpg"><img src="foto15.jpg"><img src="foto14.jpg"><img src="foto13.jpg">
         </div>
       </div>
     </div>
@@ -394,8 +416,9 @@
 <section id="memories">
   <div class="content">
     <h1>Apresiasi Kepada Seluruh Panitia</h1>
-    <div class="memory-photo"><img src="foto-bersama.jpg"></div>
     <div class="memory-photo"><img src="foto-bersama2.jpg"></div>
+    <div class="memory-photo"><img src="foto-bersama.jpg"></div>
+    <div class="memory-photo"><img src="fotoall.jpg"></div>
     <p class="lead">Terima kasih atas kerja keras dan kebersamaan kalian semua 💛</p>
   </div>
 </section>
@@ -405,8 +428,8 @@
     <h1>Akhir Kata</h1>
     <p class="lead">Kami Berdua (Adhim dan Faiq) mengucapkan terimakasih sebesar-besarnya kepada teman-teman divisi acara, Koordinator umum, serta semua panitia yang terlibat dalam menyyukseskan acara sosmascamp 2025 ini.</p class="lead">
     <p class="lead">Di Sosmascamp ini, kami mendapatkan benyak pelajaran baru dan keluarga baru yang sangat membantu kami berkembang menjadi pribadi yang lebih baik.</p class="lead">
-    <p class="lead">Sebelumnya kami mohon maaf sebesar besarnya jika dari kami telah melakukan kesalahan yang menyakiti hati kalian baik itu disengaja maupun tidak disengaja</p class="lead">
-    <p class="lead">semoga takdir mempertemukan kita lagi di waktu yang seindah kenangan itu.</p>
+    <p class="lead">Sebelumnya kami mohon maaf sebesar besarnya jika dari kami telah melakukan kesalahan yang menyakiti hati kalian baik itu disengaja maupun tidak disengaja</p class="lead">          <p class="lead">semoga takdir mempertemukan kita lagi di waktu yang seindah kenangan itu.</p>
+    <div class="fotosahabat"><img src="sahabat.png"></div>
   </div>
 </section>
 
@@ -442,6 +465,3 @@ musicBtn.addEventListener("click", () => {
 </script>
 </body>
 </html>
-
-
-
